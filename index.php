@@ -33,9 +33,9 @@
 
 	<?php if (isset($_SESSION['usuario_id'])) { ?><p style="color: lime;">SE VOCÊ ESTÁ VENDO ESSE TEXTO ÉSSA É UMA ÁREA PRIVADA E VOCÊ ESTÁ LOGADO E TEM ACESSO.</p><?php } ?>
 </section>
-  <!-- Rodapé -->
+  <!-- Rodapé --oioio hoje>
  
-  
+
 
 </body>
 </html>
