@@ -19,3 +19,7 @@ try {
 
 // Define uma constante para o caminho absoluto da aplicação
 define("ROOT_PATH", __DIR__);
+
+
+
+// aqui foi editado por lucas 
