@@ -15,7 +15,7 @@
 <body>
   <!-- Menu -->
   <nav>
-     <span class="logo">Conexão Play-Hard</span>
+     <span class="logo">Conexão Play-Hard 3</span>
 		<div>
 		<?php if (!isset($_SESSION['usuario_id'])) { ?>
 			<a href="./log.php" class="login"><i class="fa-solid fa-user"></i></i> Login</a>
