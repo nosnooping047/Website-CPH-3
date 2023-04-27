@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Pear Sans';
+    src: url('../fonts/pearOS-Font-Regular.ttf');
+    font-weight: normal;
+}
+body {
+  background-color: #f1f1f1;
+  font-family: 'Pear Sans', sans-serif;
+}
+form {
+  background-color: white;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+h2 {
+  text-align: center;
+  margin-top: 0;
+  font-size: 28px;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  color: #666;
+}
+input[type=email],
+input[type=password] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 30px;
+  display: block;
+  width: 100%;
+  font-family: 'Pear Sans', sans-serif;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.register-btn {
+    background-color: #555;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+   display: block;
+    width: 100%;
+  font-family: 'Pear Sans', sans-serif;
+}
+.rec {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.rec a {
+  color: #666;
+}
+
+.register-btn:hover {
+    background-color: #333;
+}
+/* Estilos para telas menores que 768px */
+@media (max-width: 767px) {
+  form {
+    padding: 10px;
+  }
+
+  input[type=submit] {
+    margin-top: 15px;
+  }
+}		

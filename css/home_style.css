@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Pear Sans';
+  src: url('../fonts/pearOS-Font-Regular.ttf');
+  font-weight: normal;
+}
+/* Estilos para o menu */
+nav {
+background-color: #333;
+color: #fff;
+display: flex;
+justify-content: space-between;
+align-items: left;
+font-size: 1.2em;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 1;
+font-family: 'Pear Sans', sans-serif;
+}
+nav a {
+color: #fff;
+text-decoration: none;
+margin: 0 10px;
+transition: all 0.3s ease-in-out;
+font-family: 'Pear Sans', sans-serif;
+}
+nav a:hover {
+text-decoration: underline;
+transform: scale(1.1);
+}
+nav .logo {
+font-size: 1.5em;
+margin-left: 10px;
+font-weight: bold;
+letter-spacing: 2px;
+text-shadow: 2px 2px #666;
+}
+nav div {
+display: flex;
+align-items: center;
+}
+/* Estilos para a seção de conteúdo */
+.content {
+margin-top: 80px;
+padding: 20px;
+font-size: 1.2em;
+line-height: 1.5;
+text-align: justify;
+font-family: 'Pear Sans', sans-serif;
+}
+.content h1 {
+font-size: 2em;
+font-weight: bold;
+margin-bottom: 10px;
+font-family: 'Pear Sans', sans-serif;
+}
